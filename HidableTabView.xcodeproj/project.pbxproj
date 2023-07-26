@@ -7,22 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E18F4219282AD0EE0057864C /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4218282AD0EE0057864C /* DemoApp.swift */; };
-		E18F421B282AD0EE0057864C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F421A282AD0EE0057864C /* ContentView.swift */; };
-		E18F421D282AD0F00057864C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18F421C282AD0F00057864C /* Assets.xcassets */; };
-		E18F4220282AD0F00057864C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18F421F282AD0F00057864C /* Preview Assets.xcassets */; };
-		E18F4229282AE4C90057864C /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4228282AE4C90057864C /* View+Extensions.swift */; };
-		E18F422B282FFBF40057864C /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F422A282FFBF30057864C /* FirstView.swift */; };
-		E18F422D282FFF5C0057864C /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F422C282FFF5B0057864C /* SecondView.swift */; };
-		E18F422F283000990057864C /* TabViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F422E283000990057864C /* TabViewManager.swift */; };
-		E18F4233283003520057864C /* ShowTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4232283003520057864C /* ShowTabBar.swift */; };
-		E18F4235283003640057864C /* HiddenTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4234283003640057864C /* HiddenTabBar.swift */; };
-		E18F4238283008520057864C /* UITabBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4237283008520057864C /* UITabBar+Extensions.swift */; };
-		E18F423B283008CF0057864C /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F423A283008CF0057864C /* UIView+Extensions.swift */; };
-		E18F423D28300DCD0057864C /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F423C28300DCD0057864C /* ThirdView.swift */; };
-		E18F423F28300E130057864C /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F423E28300E130057864C /* FourthView.swift */; };
-		E1D53ACD283175E30089FD3C /* HidableTabView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D53AC7283175E30089FD3C /* HidableTabView.framework */; };
-		E1D53ACE283175E30089FD3C /* HidableTabView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1D53AC7283175E30089FD3C /* HidableTabView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E1D53AD3283176020089FD3C /* ShowTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4232283003520057864C /* ShowTabBar.swift */; };
 		E1D53AD4283176020089FD3C /* HiddenTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4234283003640057864C /* HiddenTabBar.swift */; };
 		E1D53AD5283176070089FD3C /* UITabBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4237283008520057864C /* UITabBar+Extensions.swift */; };
@@ -30,59 +14,17 @@
 		E1D53AD7283176070089FD3C /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F423A283008CF0057864C /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E1D53ACB283175E30089FD3C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E18F420D282AD0EE0057864C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1D53AC6283175E30089FD3C;
-			remoteInfo = HidableTabView;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		E1D53AD2283175E30089FD3C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E1D53ACE283175E30089FD3C /* HidableTabView.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		E18F4215282AD0EE0057864C /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E18F4218282AD0EE0057864C /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
-		E18F421A282AD0EE0057864C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E18F421C282AD0F00057864C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E18F421F282AD0F00057864C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E18F4228282AE4C90057864C /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
-		E18F422A282FFBF30057864C /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
-		E18F422C282FFF5B0057864C /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		E18F422E283000990057864C /* TabViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewManager.swift; sourceTree = "<group>"; };
 		E18F4232283003520057864C /* ShowTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTabBar.swift; sourceTree = "<group>"; };
 		E18F4234283003640057864C /* HiddenTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenTabBar.swift; sourceTree = "<group>"; };
 		E18F4237283008520057864C /* UITabBar+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBar+Extensions.swift"; sourceTree = "<group>"; };
 		E18F423A283008CF0057864C /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		E18F423C28300DCD0057864C /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
-		E18F423E28300E130057864C /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
 		E18F43B6283174240057864C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		E1D53AC7283175E30089FD3C /* HidableTabView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HidableTabView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E18F4212282AD0EE0057864C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1D53ACD283175E30089FD3C /* HidableTabView.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E1D53AC4283175E30089FD3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,7 +40,6 @@
 			children = (
 				E18F43B6283174240057864C /* Package.swift */,
 				E1D53AC8283175E30089FD3C /* HidableTabView */,
-				E18F4217282AD0EE0057864C /* Demo */,
 				E18F4216282AD0EE0057864C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,42 +47,9 @@
 		E18F4216282AD0EE0057864C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E18F4215282AD0EE0057864C /* Demo.app */,
 				E1D53AC7283175E30089FD3C /* HidableTabView.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E18F4217282AD0EE0057864C /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				E18F4218282AD0EE0057864C /* DemoApp.swift */,
-				E18F421A282AD0EE0057864C /* ContentView.swift */,
-				E18F4230283002340057864C /* TabViews */,
-				E18F4239283008840057864C /* Tools */,
-				E18F421C282AD0F00057864C /* Assets.xcassets */,
-				E18F421E282AD0F00057864C /* Preview Content */,
-			);
-			path = Demo;
-			sourceTree = "<group>";
-		};
-		E18F421E282AD0F00057864C /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E18F421F282AD0F00057864C /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E18F4230283002340057864C /* TabViews */ = {
-			isa = PBXGroup;
-			children = (
-				E18F422A282FFBF30057864C /* FirstView.swift */,
-				E18F422C282FFF5B0057864C /* SecondView.swift */,
-				E18F423C28300DCD0057864C /* ThirdView.swift */,
-				E18F423E28300E130057864C /* FourthView.swift */,
-			);
-			path = TabViews;
 			sourceTree = "<group>";
 		};
 		E18F4231283003440057864C /* ViewModifiers */ = {
@@ -161,14 +69,6 @@
 				E18F4237283008520057864C /* UITabBar+Extensions.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		E18F4239283008840057864C /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				E18F422E283000990057864C /* TabViewManager.swift */,
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 		E1D53AC8283175E30089FD3C /* HidableTabView */ = {
@@ -193,25 +93,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E18F4214282AD0EE0057864C /* Demo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E18F4223282AD0F00057864C /* Build configuration list for PBXNativeTarget "Demo" */;
-			buildPhases = (
-				E18F4211282AD0EE0057864C /* Sources */,
-				E18F4212282AD0EE0057864C /* Frameworks */,
-				E18F4213282AD0EE0057864C /* Resources */,
-				E1D53AD2283175E30089FD3C /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E1D53ACC283175E30089FD3C /* PBXTargetDependency */,
-			);
-			name = Demo;
-			productName = HidableTabView;
-			productReference = E18F4215282AD0EE0057864C /* Demo.app */;
-			productType = "com.apple.product-type.application";
-		};
 		E1D53AC6283175E30089FD3C /* HidableTabView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1D53ACF283175E30089FD3C /* Build configuration list for PBXNativeTarget "HidableTabView" */;
@@ -240,9 +121,6 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					E18F4214282AD0EE0057864C = {
-						CreatedOnToolsVersion = 13.3.1;
-					};
 					E1D53AC6283175E30089FD3C = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -261,22 +139,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E18F4214282AD0EE0057864C /* Demo */,
 				E1D53AC6283175E30089FD3C /* HidableTabView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E18F4213282AD0EE0057864C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E18F4220282AD0F00057864C /* Preview Assets.xcassets in Resources */,
-				E18F421D282AD0F00057864C /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E1D53AC5283175E30089FD3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,25 +155,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E18F4211282AD0EE0057864C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E18F4233283003520057864C /* ShowTabBar.swift in Sources */,
-				E18F423F28300E130057864C /* FourthView.swift in Sources */,
-				E18F421B282AD0EE0057864C /* ContentView.swift in Sources */,
-				E18F422D282FFF5C0057864C /* SecondView.swift in Sources */,
-				E18F422F283000990057864C /* TabViewManager.swift in Sources */,
-				E18F423D28300DCD0057864C /* ThirdView.swift in Sources */,
-				E18F4219282AD0EE0057864C /* DemoApp.swift in Sources */,
-				E18F4235283003640057864C /* HiddenTabBar.swift in Sources */,
-				E18F4229282AE4C90057864C /* View+Extensions.swift in Sources */,
-				E18F4238283008520057864C /* UITabBar+Extensions.swift in Sources */,
-				E18F422B282FFBF40057864C /* FirstView.swift in Sources */,
-				E18F423B283008CF0057864C /* UIView+Extensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E1D53AC3283175E30089FD3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,14 +168,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E1D53ACC283175E30089FD3C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E1D53AC6283175E30089FD3C /* HidableTabView */;
-			targetProxy = E1D53ACB283175E30089FD3C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E18F4221282AD0F00057864C /* Debug */ = {
@@ -379,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -433,73 +274,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E18F4224282AD0F00057864C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = R38K25C8UB;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ozhayta.HidableTabView.demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E18F4225282AD0F00057864C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = R38K25C8UB;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ozhayta.HidableTabView.demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -516,6 +297,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,6 +328,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,15 +354,6 @@
 			buildConfigurations = (
 				E18F4221282AD0F00057864C /* Debug */,
 				E18F4222282AD0F00057864C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E18F4223282AD0F00057864C /* Build configuration list for PBXNativeTarget "Demo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E18F4224282AD0F00057864C /* Debug */,
-				E18F4225282AD0F00057864C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
